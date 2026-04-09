@@ -117,13 +117,6 @@ img {
   transition: transform 0.25s ease;
 }
 
-.brand-divider {
-  width: 1px;
-  height: 52px;
-  margin: 0 18px;
-  background: var(--border);
-}
-
 .brand-text {
   min-width: 0;
 }
@@ -135,13 +128,6 @@ img {
   letter-spacing: 0.5px;
   color: var(--primary);
   line-height: 1.2;
-}
-
-.brand-bottom {
-  display: block;
-  margin-top: 6px;
-  font-size: 12px;
-  color: var(--text-gray);
 }
 
 .brand:hover .brand-logo {
@@ -853,17 +839,8 @@ img {
     height: 54px;
   }
 
-  .brand-divider {
-    height: 42px;
-    margin: 0 12px;
-  }
-
   .brand-top {
     font-size: 22px;
-  }
-
-  .brand-bottom {
-    display: none;
   }
 
   .hero-copy h1,
@@ -913,16 +890,8 @@ img {
     height: 46px;
   }
 
-  .brand-divider {
-    display: none;
-  }
-
   .brand-top {
     font-size: 18px;
-  }
-
-  .brand-bottom {
-    font-size: 12px;
   }
 
   .hero-grid {
