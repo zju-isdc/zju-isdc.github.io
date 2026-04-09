@@ -1,0 +1,162 @@
+{
+  "groups": [
+    {
+      "title": "首席科学家",
+      "members": [
+        {
+          "name": "陈纯",
+          "position": "中国工程院院士、教授",
+          "direction": "区块链与大数据",
+          "homepage": "https://ysg.ckcest.cn/html/details/5016/index.html",
+          "avatar": "images/team/陈纯.png"
+        }
+      ]
+    },
+    {
+      "title": "主任",
+      "members": [
+        {
+          "name": "宋明黎",
+          "position": "教授、博士生导师",
+          "direction": "模型驱动的深度学习、计算机视觉、图机器学习",
+          "homepage": "https://person.zju.edu.cn/msong",
+          "avatar": "images/team/宋明黎.png"
+        }
+      ]
+    },
+    {
+      "title": "副主任",
+      "members": [
+        {
+          "name": "王灿",
+          "position": "教授、博士生导师",
+          "direction": "人工智能、数据挖掘、机器学习",
+          "homepage": "https://person.zju.edu.cn/wangcan/0.html",
+          "avatar": "images/team/王灿.png"
+        },
+        {
+          "name": "冯尊磊",
+          "position": "副教授、特聘研究员，博士生导师",
+          "direction": "人工智能、AI+医学、病理智能诊疗、多组学融合分析",
+          "homepage": "https://person.zju.edu.cn/fengzunlei",
+          "avatar": "images/team/冯尊磊.png"
+        }
+      ]
+    },
+    {
+      "title": "主任助理",
+      "members": [
+        {
+          "name": "孙武杰",
+          "position": "博士后",
+          "direction": "深度学习、知识蒸馏",
+          "homepage": "https://zju-swj.github.io/",
+          "avatar": "images/team/孙武杰.png"
+        }
+      ]
+    },
+    {
+      "title": "核心成员",
+      "members": [
+        {
+          "name": "宋杰",
+          "position": "副教授、博士生导师",
+          "direction": "多模态推理加速、模型轻量化部署、无线智能通信",
+          "homepage": "https://person.zju.edu.cn/songjie",
+          "avatar": "images/team/宋杰.jpg"
+        },
+        {
+          "name": "宛袁玉",
+          "position": "研究员、博士生导师",
+          "direction": "机器学习、在线学习、分布式优化",
+          "homepage": "https://person.zju.edu.cn/wanyy",
+          "avatar": "images/team/宛袁玉.jpg"
+        },
+        {
+          "name": "陈佳伟",
+          "position": "百人计划研究员、博士生导师",
+          "direction": "推荐系统、大模型、智能体",
+          "homepage": "https://person.zju.edu.cn/0022087",
+          "avatar": "images/team/陈佳伟.jpg"
+        },
+        {
+          "name": "季珂宇",
+          "position": "特聘副研究员",
+          "direction": "密码学、数据安全",
+          "homepage": "https://person.zju.edu.cn/NB25053",
+          "avatar": "images/team/季珂宇.jpg"
+        },
+        {
+          "name": "才振功",
+          "position": "副研究员、博士生导师",
+          "direction": "云原生、边缘计算、算力调度、智能体",
+          "homepage": "https://person.zju.edu.cn/zhengong",
+          "avatar": "images/team/才振功.jpg"
+        },
+        {
+          "name": "倪超",
+          "position": "副教授、特聘研究员，博士生导师",
+          "direction": "智能化软件工程、软件安全、区块链、开源软件",
+          "homepage": "https://person.zju.edu.cn/chaoni",
+          "avatar": "images/team/倪超.jpg"
+        },
+        {
+          "name": "胡星",
+          "position": "副教授、博士生导师",
+          "direction": "计算机软件与理论、AI and SE",
+          "homepage": "https://person.zju.edu.cn/huxing",
+          "avatar": "images/team/胡星.jpg"
+        },
+        {
+          "name": "任晓雪",
+          "position": "研究员",
+          "direction": "智能化软件工程、代码智能、软件测试",
+          "homepage": "https://person.zju.edu.cn/xiaoxueREN",
+          "avatar": "images/team/任晓雪.png"
+        },
+        {
+          "name": "陈凯旋",
+          "position": "研究员",
+          "direction": "计算机视觉、图挖掘",
+          "homepage": "https://chenchkx.github.io/",
+          "avatar": "images/team/陈凯旋.png"
+        },
+        {
+          "name": "郑铜亚",
+          "position": "教师",
+          "direction": "图神经网络、时序图、可解释人工智能",
+          "homepage": "https://vipazoo.cn/people/zhengtongya.html",
+          "avatar": "images/team/郑铜亚.jpg"
+        },
+        {
+          "name": "张皓飞",
+          "position": "教师",
+          "direction": "可解释深度学习、知识蒸馏、知识融合、视觉 Transformer",
+          "homepage": "https://vipazoo.cn/people/zhanghaofei",
+          "avatar": "images/team/张皓飞.png"
+        },
+        {
+          "name": "胡佳聪",
+          "position": "研究员",
+          "direction": "智能体系统、多模态大语言模型、模型优化与评测",
+          "homepage": "https://jiaconghu.com/",
+          "avatar": "images/team/胡佳聪.png"
+        },
+        {
+          "name": "贾凌翔",
+          "position": "教师",
+          "direction": "计算机辅助药物设计、计算机视觉",
+          "homepage": "https://vipazoo.cn/people/jialingxiang",
+          "avatar": "images/team/贾凌翔.jpg"
+        },
+        {
+          "name": "高杨",
+          "position": "教师",
+          "direction": "异常检测、图学习",
+          "homepage": "https://vipazoo.cn/people/gaoyang",
+          "avatar": "images/team/高杨.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "tabs": [
+    {
+      "slug": "papers",
+      "title": "论文",
+      "page_title": "成果产出",
+      "tab_label": "论文",
+      "page_path": "results.html",
+      "description": "查看浙江大学工业软件与数据要素协同创新中心的论文成果。",
+      "years": [
+        {
+          "year": 2026,
+          "papers": [
+            {
+              "title": "Semi-supervised Latent Disentangled Diffusion Model for Textile Pattern Generation",
+              "authors": "Chenggong Hu, Yi Wang, Mengqi Xue, Haofei Zhang, Jie Song, Li Sun",
+              "venue": "AAAI",
+              "year": 2026
+            },
+            {
+              "title": "D^3-RSMDE: 40x Faster and High-Fidelity Remote Sensing Monocular Depth Estimation",
+              "authors": "Ruizhi Wang, Weihan Li, Zunlei Feng, Haofei Zhang, Mingli Song, Jiayu Wang, Jie Song, Li Sun",
+              "venue": "AAAI",
+              "year": 2026
+            },
+            {
+              "title": "Dual-branch Spatial-Temporal Self-supervised Representation for Enhanced Road Network Learning",
+              "authors": "Qinghong Guo, Yu Wang, Ji Cao, Tongya Zheng, Junshu Dai, Bingde Hu, Shunyu Liu, Canghong Jin",
+              "venue": "AAAI",
+              "year": 2026
+            },
+            {
+              "title": "Neural Graph Navigation for Intelligent Subgraph Matching",
+              "authors": "Yuchen Ying, Yiyang Dai, Wenda Li, Wenjie Huang, Rui Wang, Tongya Zheng, Yu Wang, Hanyang Yuan, Mingli Song",
+              "venue": "AAAI",
+              "year": 2026
+            },
+            {
+              "title": "Artificial intelligence in digital pathology diagnosis and analysis: technologies, challenges, and future prospects",
+              "authors": "Xiuming Zhang, Tianhong Gao, Qiuyu Cai, Jiabin Xia, Yuning Sun, Jian Yang, Weihan Li, Shengxuming Zhang, Hengrui Lou, Xiaotian Yu, Kaiwen Hu, Jingwen Ye, Jinxing Zhang, Jie Lei, Lechao Cheng, Linjie Xu, Qing Chen, Hexiang Wang, Meifu Gan, Cheng Lu, Nan Pu, Mingli Song, Xin Chen, Wenjie Liang, Han Lv, Chaoqing Xu, Zaiyi Liu, Jing Zhang, Kai Yan, Zunlei Feng",
+              "venue": "Military Medical Research",
+              "year": 2026
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "papers": [
+            {
+              "title": "How Do Recommendation Models Amplify Popularity Bias? An Analysis from the Spectral Perspective",
+              "authors": "Siyi Lin, Chongming Gao, Jiawei Chen, et al.",
+              "venue": "WSDM",
+              "year": 2025,
+              "sort_date": "2025-01-17",
+              "featured": true,
+              "highlight": "WSDM 2025 最佳论文奖"
+            },
+            {
+              "title": "面向人脸视频防伪检测的大规模中文数据评测基准",
+              "authors": "贝毅君, 娄恒瑞, 高克威, 宋杰, 王蕊, 金苍宏, 雷杰, 宋明黎, 胡秉德, 冯尊磊",
+              "venue": "中国图象图形学报",
+              "year": 2025
+            },
+            {
+              "title": "Target-directed Progressive Gradient Adjusting for Transfer Learning",
+              "authors": "Yijun Bei, Kewei Gao, Zhuoyang Zhao, Sen Lin, Erteng Liu, Zunlei Feng",
+              "venue": "Pattern Recognition",
+              "year": 2025
+            },
+            {
+              "title": "Self-Adaptive Image-Text Fusion for Medical Image Classification",
+              "authors": "Jian Zhang, Kaihao He, Zunlei Feng, Shuifa Sun, Xiaoyan Sun, Zhenming Yuan, Jun Yu",
+              "venue": "Pattern Recognition",
+              "year": 2025
+            },
+            {
+              "title": "Behavior Capture Guided Engagement Recognition",
+              "authors": "Yijun Bei, Songyuan Guo, Kewei Gao, Zunlei Feng",
+              "venue": "Pattern Recognition",
+              "year": 2025
+            },
+            {
+              "title": "Fastest Prostate Cancer Prediction on Whole-Mount Pathological Slides using Self-reform Multilayer Transformer",
+              "authors": "Linjie Xu, Xiaotian Yu, Jili Wang, Haoming Luo, Wenxiang Xu, Xue Zhang, Han Zhang, Liang Zou, Wanwan Hu, Wenjie Liang, Yuexuan Wang, Jing Zhang, Mingli Song, Zunlei Feng, Cheng Lu, Xiuming Zhang",
+              "venue": "IEEE Access",
+              "year": 2025
+            },
+            {
+              "title": "TED-DTMoA: Tri-Comparison Expertise Decision for Drug-Target Mechanism of Action",
+              "authors": "Lingxiang Jia, Zipeng Zhong, Shaolun Yao, Jie Song, Mingli Song, Zunlei Feng",
+              "venue": "ECAI",
+              "year": 2025
+            },
+            {
+              "title": "A Large-scale Universal Evaluation Benchmark For Face Forgery Detection",
+              "authors": "Hengrui Lou, Zunlei Feng, Jinsong Geng, Erteng Liu, Lechao Cheng, Jie Lei, Jie Song, Mingli Song, Yijun Bei",
+              "venue": "ACM MM",
+              "year": 2025
+            },
+            {
+              "title": "Activation Approximations Can Incur Safety Vulnerabilities Even in Aligned LLMs: Comprehensive Analysis and Defense",
+              "authors": "Jiawen Zhang, Kejia Chen, Lipeng He, Jian Lou, Dan Li, Zunlei Feng, Mingli Song, Jian Liu, Kui Ren, Xiaohu Yang",
+              "venue": "USENIX Security",
+              "year": 2025
+            },
+            {
+              "title": "Large Vision-Language Models Are Generalist Solvers for Pathology Tasks",
+              "authors": "Shengxuming Zhang, Hengrui Lou, Jing Zhang, Xiuming Zhang, Mingli Song, Zunlei Feng",
+              "venue": "ICIP",
+              "year": 2025
+            },
+            {
+              "title": "An Intelligent Interactive Visual Analytics System for Exploring Large and Multi-Scale Pathology Images",
+              "authors": "Chaoqing Xu, Ruiqi Yang, Weihan Li, Xinyuan Fu, Liting Fang, Zunlei Feng, Xiuming Zhang, Can Wang, Mingli Song, Wei Chen",
+              "venue": "IEEE VIS",
+              "year": 2025
+            },
+            {
+              "title": "Tree of Preferences for Diversified Recommendation",
+              "authors": "Hanyang Yuan, Ning Tang, Tongya Zheng, Jiarong Xu, Xintong Hu, Renhong Huang, Shunyu Liu, Jiacong Hu, Jiawei Chen, Mingli Song",
+              "venue": "NeurIPS",
+              "year": 2025
+            },
+            {
+              "title": "Association-Focused Path Aggregation for Graph Fraud Detection",
+              "authors": "Tian Qiu, Wenda Li, Zunlei Feng, Jie Lei, Tao Wang, Yi Gao, Mingli Song, Yang Gao",
+              "venue": "NeurIPS",
+              "year": 2025
+            },
+            {
+              "title": "Consistent Paths Lead to Truth: Self-Rewarding Reinforcement Learning for LLM Reasoning",
+              "authors": "Kongcheng Zhang, Qi Yao, Shunyu Liu, Yingjie Wang, Baisheng Lai, Jieping Ye, Mingli Song, Dacheng Tao",
+              "venue": "NeurIPS",
+              "year": 2025
+            },
+            {
+              "title": "SeRL: Self-Play Reinforcement Learning for Large Language Models with Limited Data",
+              "authors": "Wenkai Fang, Shunyu Liu, Yang Zhou, Kongcheng Zhang, Tongya Zheng, Kaixuan Chen, Mingli Song, Dacheng Tao",
+              "venue": "NeurIPS",
+              "year": 2025
+            },
+            {
+              "title": "Efficient Distributed Graph Neural Network Training with Source Chunking and Moving Aggregation",
+              "authors": "Wenjie Huang, Tongya Zheng, Rui Wang, Tongtian Zhu, Bingde Hu, Shuibing He, Mingli Song, Xinyu Wang, Sai Wu, Chun Chen",
+              "venue": "TKDE",
+              "year": 2025
+            },
+            {
+              "title": "面向欺诈检测的风险感知动态聚合图联邦学习",
+              "authors": "杨家震, 邱天, 陈可嘉, 段明江, 蒋健, 胡泽远, 宋明黎, 冯尊磊",
+              "venue": "软件学报",
+              "year": 2025
+            },
+            {
+              "title": "Dataset Ownership Verification for Pre-trained Masked Models",
+              "authors": "Yuechen Xie, Jie Song, Yicheng Shan, Xiaoyan Zhang, Yuanyu Wan, Shengxuming Zhang, Jiarui Duan, Mingli Song",
+              "venue": "ICCV",
+              "year": 2025
+            },
+            {
+              "title": "Boosting MLLM Reasoning with Text-Debiased Hint-GRPO",
+              "authors": "Qihan Huang, Long Chan, Jinlong Liu, Wanggui He, Hao Jiang, Mingli Song, Jingyuan Chen, Chang Yao, Jie Song",
+              "venue": "ICCV",
+              "year": 2025
+            },
+            {
+              "title": "Spatial-Temporal Forgery Trace based Forgery Image Identification",
+              "authors": "Yilin Wang, Zunlei Feng, Jiachi Wang, Hengrui Lou, Binjia Zhou, Jie Lei, Mingli Song, Yijun Bei",
+              "venue": "ICCV",
+              "year": 2025
+            },
+            {
+              "title": "From One to Many: Portable Model Construction with Independent Network Units",
+              "authors": "Zhaocheng Lu, Haofei Zhang, Li Sun, Jiabin Xia, Jingwen Ye, Mingli Song",
+              "venue": "IEEE Internet of Things Journal",
+              "year": 2025
+            },
+            {
+              "title": "Black-Box Reductions for Decentralized Online Convex Optimization in Changing Environments",
+              "authors": "Yuanyu Wan",
+              "venue": "COLT",
+              "year": 2025
+            },
+            {
+              "title": "Revisiting Differentially Private Algorithms for Decentralized Online Learning",
+              "authors": "Xiaoyu Wang, Wenhao Yang, Chang Yao, Mingli Song, Yuanyu Wan",
+              "venue": "ICML",
+              "year": 2025
+            },
+            {
+              "title": "Multi-objective Linear Reinforcement Learning with Lexicographic Rewards",
+              "authors": "Bo Xue, Dake Bu, Ji Cheng, Yuanyu Wan, Qingfu Zhang",
+              "venue": "ICML",
+              "year": 2025
+            },
+            {
+              "title": "Dimension-Free Adaptive Subgradient Methods with Frequent Directions",
+              "authors": "Sifan Yang, Yuanyu Wan, Peijia Li, Yibo Wang, Xiao Zhang, Zhewei Wei, Lijun Zhang",
+              "venue": "ICML",
+              "year": 2025
+            },
+            {
+              "title": "STD-FD: Spatio-Temporal Distribution Fitting Deviation for AIGC Forgery Identification",
+              "authors": "Hengrui Lou, Zunlei Feng, Jinsong Geng, Erteng Liu, Jie Lei, Lechao Cheng, Jie Song, Mingli Song, Yijun Bei",
+              "venue": "ICML",
+              "year": 2025
+            },
+            {
+              "title": "Assessing Safety Risks and Quantization-aware Safety Patching for Quantized Large Language Models",
+              "authors": "Kejia Chen, Jiawen Zhang, Jiacong Hu, Yu Wang, Mingli Song, Zunlei Feng, Jian Lou",
+              "venue": "ICML",
+              "year": 2025
+            },
+            {
+              "title": "L-Diffusion: Laplace Diffusion for Efficient Pathology Image Segmentation",
+              "authors": "Weihan Li, Linyun Zhou, Jian Yang, Shengxuming Zhang, Xiangtong Du, Xiuming Zhang, Jing Zhang, Chaoqing Xu, Mingli Song, Zunlei Feng",
+              "venue": "ICML",
+              "year": 2025
+            },
+            {
+              "title": "Efficient Dynamic Graphs Learning with Refined Batch Parallel Training",
+              "authors": "Zhengzhao Feng, Rui Wang, Longjiao Zhang, Tongya Zheng, Ziqi Huang, Mingli Song",
+              "venue": "IJCAI",
+              "year": 2025
+            },
+            {
+              "title": "Odyssey : Empowering Minecraft Agents with Open-World Skills",
+              "authors": "Shunyu Liu, Yaoru Li, Kongcheng Zhang, Zhenyu Cui, Wenkai Fang, Yuxuan Zheng, Tongya Zheng, Mingli Song",
+              "venue": "IJCAI",
+              "year": 2025
+            },
+            {
+              "title": "Problem-dependent Regret for Lexicographic Multi-Armed Bandits with Adversarial Corruptions",
+              "authors": "Bo Xue, Xi Lin, Yuanyu Wan, Qingfu Zhang",
+              "venue": "IJCAI",
+              "year": 2025
+            },
+            {
+              "title": "Smoothed Online Convex Optimization with Delayed Feedback",
+              "authors": "Sifan Yang, Wenhao Yang, Wei Jiang, Yuanyu Wan, Lijun Zhang",
+              "venue": "IJCAI",
+              "year": 2025
+            },
+            {
+              "title": "CADP: Towards Better Centralized Learning for Decentralized Execution in MARL",
+              "authors": "Yihe Zhou, Shunyu Liu, Yunpeng Qing, Tongya Zheng, Kaixuan Chen, Jie Song, Mingli Song",
+              "venue": "IJCAI",
+              "year": 2025
+            },
+            {
+              "title": "VQCounter: Designing Visual Prompt Queue for Accurate Open-World Counting",
+              "authors": "Fanfan Ye, Yiqi Fan, Qiaoyong Zhong, Shicai Yang, Di Xie, Jie Song, Mingli Song",
+              "venue": "IJCAI",
+              "year": 2025
+            },
+            {
+              "title": "CorrDetail: Visual Detail Enhanced Self-correction for Face Forgery Detection",
+              "authors": "Binjia Zhou, Hengrui Lou, Lizhe Chen, Haoyuan Li, Dawei Luo, Shuai Chen, Jie Lei, Zunlei Feng, Yijun Bei",
+              "venue": "IJCAI",
+              "year": 2025
+            },
+            {
+              "title": "Self-calibration Enhanced Whole Slide Pathology Image Analysis",
+              "authors": "Haoming Luo, Xiaotian Yu, Shengxuming Zhang, Jiabin Xia, Jian Yang, Yuning Sun, Xiuming Zhang, Jing Zhang, Zunlei Feng",
+              "venue": "IJCAI",
+              "year": 2025
+            },
+            {
+              "title": "DenseSAM: Semantic Enhance SAM for Efficient Dense Object Segmentation",
+              "authors": "Linyun Zhou, Jiacong Hu, Shengxuming Zhang, Xiangtong Du, Mingli Song, Xiuming Zhang, Zunlei Feng",
+              "venue": "IJCAI",
+              "year": 2025
+            },
+            {
+              "title": "Curricular Subgoals for Inverse Reinforcement Learning",
+              "authors": "Shunyu Liu, Yunpeng Qing, Shuqi Xu, Hongyan Wu, Jiangtao Zhang, Jingyuan Cong, Tianhao Chen, Yunfu Liu, Mingli Song",
+              "venue": "IEEE Transactions on Intelligent Transportation Systems",
+              "year": 2025
+            },
+            {
+              "title": "A Survey of Deep Learning in Sports Applications: Perception, Comprehension, and Decision",
+              "authors": "G. Wang, Z. Han, W. Chai, S. Hao, W. Hao, S. Dong, M. Song, D. Hwang",
+              "venue": "IEEE TVCG",
+              "year": 2025
+            },
+            {
+              "title": "Mixed Attention and Channel Shift Transformer for Efficient Action Recognition",
+              "authors": "X. Lu, Y. Hao, L. Cheng, S. Zhao, Y. Liu, M. Song",
+              "venue": "TOMM",
+              "year": 2025
+            },
+            {
+              "title": "BARE: Balance representation for imbalance multi-class node classification on heterogeneous information networks",
+              "authors": "Canghong Jin, Hao Ni, Feng Miao, Tongya Zheng, Mingli Song, Zemin Liu",
+              "venue": "Expert Systems with Applications",
+              "year": 2025
+            },
+            {
+              "title": "Spatial-Temporal Reconstruction Error for AIGC-based Forgery Image Detection",
+              "authors": "Chengji Shen, Zhenjiang Liu, Kaixuan Chen, Jie Lei, Mingli Song, Zunlei Feng",
+              "venue": "ICASSP",
+              "year": 2025
+            },
+            {
+              "title": "From Characters to Subwords: Modeling Unit Conversion for Low-resource Speech Recognition",
+              "authors": "Yizhi Wang, Haofei Zhang, Huiqiong Wang, Li Sun, Mingli Song",
+              "venue": "ICASSP",
+              "year": 2025
+            },
+            {
+              "title": "Effective and Efficient Distributed Temporal Graph Learning with Shared Node Memory",
+              "authors": "L. Zhou, R. Wang, Z. Zhao, W. Huang, T. Zheng, X. Wang, C. Wang, M. Song, S. Wu, S. He",
+              "venue": "VLDB",
+              "year": 2025
+            },
+            {
+              "title": "PatchDPO: Patch-level DPO for Finetuning-free Personalized Image Generation",
+              "authors": "Qihan Huang, Long Chan, Jinlong Liu, Wanggui He, Hao Jiang, Mingli Song, Jie Song",
+              "venue": "CVPR",
+              "year": 2025
+            },
+            {
+              "title": "Training Data Provenance Verification: Did Your Model Use Synthetic Data from My Generative Model for Training?",
+              "authors": "Yuechen Xie, Jie Song, Huiqiong Wang, Mingli Song",
+              "venue": "CVPR",
+              "year": 2025
+            },
+            {
+              "title": "From GNNs to Trees: Multi-Granular Interpretability for Graph Neural Networks",
+              "authors": "Jie Yang, Yuwen Wang, Kaixuan Chen, Tongya Zheng, Yihe Zhou, Zhenbang Xiao, Ji Cao, Mingli Song, Shunyu Liu",
+              "venue": "ICLR",
+              "year": 2025
+            },
+            {
+              "title": "Dataset Ownership Verification in Contrastive Pre-trained Models",
+              "authors": "Yuechen Xie, Jie Song, Mengqi Xue, Haofei Zhang, Xingen Wang, Bingde Hu, Genlang Chen, Mingli Song",
+              "venue": "ICLR",
+              "year": 2025
+            },
+            {
+              "title": "Disentangled Condensation for Large-scale Graphs",
+              "authors": "Zhenbang Xiao, Yu Wang, Shunyu Liu, Bingde Hu, Huiqiong Wang, Mingli Song, Tongya Zheng",
+              "venue": "WWW",
+              "year": 2025
+            },
+            {
+              "title": "Powerformer: A Section-adaptive Transformer for Power Flow Adjustment",
+              "authors": "Kaixuan Chen, Wei Luo, Shunyu Liu, Yaoquan Wei, Yihe Zhou, Yunpeng Qing, Quan Zhang, Yong Wang, Jie Song, Mingli Song",
+              "venue": "SIGKDD",
+              "year": 2025
+            },
+            {
+              "title": "Global Attribute-Association Pattern Aggregation for Graph Fraud Detection",
+              "authors": "Mingjiang Duan, Da He, Tongya Zheng, Lingxiang Jia, Mingli Song, Xinyu Wang, Zunlei Feng",
+              "venue": "AAAI",
+              "year": 2025
+            },
+            {
+              "title": "D$^2$-DPM: Dual Denoising for Quantized Diffusion Probabilistic Models",
+              "authors": "Qian Zeng, Jie Song, Han Zheng, Hao Jiang, Mingli Song",
+              "venue": "AAAI",
+              "year": 2025
+            },
+            {
+              "title": "Disentangled Table-Graph Representation for Interpretable Transmission Line Fault Location",
+              "authors": "Na Yu, Yutong Deng, Shunyu Liu, Kaixuan Chen, Tongya Zheng, Mingli Song",
+              "venue": "AAAI",
+              "year": 2025
+            },
+            {
+              "title": "Resolving Multi-Condition Confusion for Finetuning-Free Personalized Image Generation",
+              "authors": "Qihan Huang, Siming Fu, Jinlong Liu, Hao Jiang, Yipeng Yu, Jie Song",
+              "venue": "AAAI",
+              "year": 2025
+            },
+            {
+              "title": "Association Pattern-enhanced Molecular Representation Learning",
+              "authors": "Lingxiang Jia, Yuchen Ying, Tian Qiu, Shaolun Yao, Liang Xue, Jie Lei, Jie Song, Mingli Song, Zunlei Feng",
+              "venue": "AAAI",
+              "year": 2025
+            },
+            {
+              "title": "Holistic Semantic Representation for Navigational Trajectory Generation",
+              "authors": "Ji Cao, Tongya Zheng, Qinghong Guo, Yu Wang, Junshu Dai, Shunyu Liu, Jie Yang, Jie Song, Mingli Song",
+              "venue": "AAAI",
+              "year": 2025
+            },
+            {
+              "title": "Agent-Aware Training for Agent-Agnostic Action Advising in Deep Reinforcement Learning",
+              "authors": "Yaoquan Wei, Shunyu Liu, Jie Song, Tongya Zheng, Kaixuan Chen, Yong Wang, Mingli Song",
+              "venue": "AAAI",
+              "year": 2025
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "papers": [
+            {
+              "title": "Document Summarization Based on Data Reconstruction",
+              "authors": "Zhanying He, Chun Chen, Jiajun Bu, Can Wang, Lijun Zhang, Deng Cai, Xiaofei He",
+              "venue": "AAAI",
+              "year": 2012,
+              "sort_date": "2012-01-01",
+              "featured": true,
+              "highlight": "AAAI 2012 最佳论文奖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "achievements",
+      "title": "其他成果",
+      "page_title": "成果产出",
+      "tab_label": "其他成果",
+      "page_path": "results-achievements.html",
+      "description": "查看浙江大学工业软件与数据要素协同创新中心的其他代表性成果。",
+      "years": [
+        {
+          "year": 2024,
+          "entries": [
+            {
+              "name": "ICPC 世界总决赛铜奖",
+              "type": "竞赛",
+              "description": "浙江大学代表队获 2024 年 ICPC 世界总决赛全球第 10 名、铜牌。",
+              "year": 2024,
+              "sort_date": "2024-09-17",
+              "url": "https://zlstwebsite.github.io/Zlst/post/2024-09-17-icpc2024worldfinal/"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "entries": [
+            {
+              "name": "ACM 国际大学生程序设计竞赛世界总决赛冠军",
+              "type": "竞赛",
+              "description": "浙江大学 ArcOfDream 代表队获第 35 届 ACM 国际大学生程序设计竞赛世界总决赛冠军。",
+              "year": 2011,
+              "sort_date": "2011-05-30"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
