@@ -30,6 +30,8 @@ if (currentYear) {
   currentYear.textContent = String(new Date().getFullYear());
 }
 
+const jsonCache = new Map();
+
 function escapeHtml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -284,12 +286,27 @@ function renderTeam(groups) {
     .join("");
 }
 
-async function fetchJson(path) {
-  const response = await fetch(path);
-  if (!response.ok) {
-    throw new Error(`Failed to load ${path}: ${response.status}`);
+function fetchJson(path) {
+  if (!jsonCache.has(path)) {
+    const promise = fetch(path).then((response) => {
+      if (!response.ok) {
+        throw new Error(`Failed to load ${path}: ${response.status}`);
+      }
+      return response.json();
+    });
+    jsonCache.set(path, promise);
   }
-  return response.json();
+
+  return jsonCache.get(path);
+}
+
+function preloadJson(paths) {
+  paths.forEach((path) => {
+    void fetchJson(path).catch((error) => {
+      jsonCache.delete(path);
+      console.error(error);
+    });
+  });
 }
 
 async function initResultsPage() {
@@ -351,4 +368,16 @@ async function initTeamPage() {
   }
 }
 
+function schedulePreload() {
+  const paths = ["data/results.json", "data/news.json", "data/team.json"];
+
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(() => preloadJson(paths), { timeout: 1500 });
+    return;
+  }
+
+  window.setTimeout(() => preloadJson(paths), 300);
+}
+
+schedulePreload();
 void Promise.all([initResultsPage(), initNewsPage(), initTeamPage()]);
