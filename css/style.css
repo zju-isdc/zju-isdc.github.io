@@ -109,6 +109,7 @@ img {
   align-items: center;
   flex: 1;
   min-width: 0;
+  gap: 14px;
 }
 
 .brand-logo {
@@ -123,11 +124,12 @@ img {
 
 .brand-top {
   display: block;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.5px;
   color: var(--primary);
   line-height: 1.2;
+  white-space: nowrap;
 }
 
 .brand:hover .brand-logo {
@@ -158,9 +160,9 @@ img {
 .site-nav {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   flex-shrink: 0;
-  padding: 6px;
+  padding: 5px;
   background: var(--bg-soft);
   border: 1px solid var(--border);
   border-radius: 999px;
@@ -168,8 +170,8 @@ img {
 
 .site-nav a {
   display: block;
-  min-width: 92px;
-  padding: 0 16px;
+  min-width: 80px;
+  padding: 0 10px;
   height: 42px;
   line-height: 42px;
   text-align: center;
@@ -236,6 +238,7 @@ img {
 
 .hero-copy {
   color: #ffffff;
+  text-align: center;
 }
 
 .eyebrow,
@@ -268,6 +271,8 @@ img {
 
 .hero-intro {
   max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-actions,
@@ -430,9 +435,12 @@ img {
 .leader-grid,
 .contact-grid,
 .team-grid,
-.summary-grid,
-.news-grid {
+.summary-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.news-grid {
+  grid-template-columns: 1fr;
 }
 
 .detail-grid,
@@ -500,6 +508,38 @@ img {
   letter-spacing: 0.08em;
 }
 
+.news-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.featured-news-card {
+  background: #ffffff;
+  border-color: #0b66c3;
+  box-shadow: 0 0 0 3px rgba(11, 102, 195, 0.18), 0 18px 42px rgba(0, 63, 129, 0.10);
+  animation: featured-news-pulse 2.4s ease-in-out infinite;
+}
+
+.featured-news-card .news-date {
+  color: #0b4f9c;
+}
+
+.featured-news-card:hover {
+  border-color: #0b66c3;
+  box-shadow: 0 0 0 4px rgba(11, 102, 195, 0.22), 0 24px 48px rgba(0, 63, 129, 0.14);
+}
+
+@keyframes featured-news-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 3px rgba(11, 102, 195, 0.14), 0 18px 42px rgba(0, 63, 129, 0.10);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(11, 102, 195, 0.22), 0 20px 44px rgba(0, 63, 129, 0.12);
+  }
+}
+
 .leader-role,
 .team-role,
 .page-tag {
@@ -522,22 +562,86 @@ img {
   flex-direction: column;
 }
 
+.team-card-heading {
+  margin: 0 0 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  color: var(--primary);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
 .team-card-link {
   display: block;
   height: 100%;
   color: inherit;
 }
 
-.team-sequence-grid,
-.member-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.team-group + .team-group {
+  margin-top: 48px;
 }
 
-.team-break {
-  grid-column: 1 / -1;
-  height: 0;
-  margin: 0;
+.stacked-summary {
+  display: grid;
+  gap: 28px;
+}
+
+.stacked-block {
   padding: 0;
+}
+
+.stacked-block h3 {
+  margin: 0 0 14px;
+  color: var(--primary);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.partner-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 132px;
+  padding: 18px;
+  background: var(--primary);
+  border: 1px solid rgba(0, 30, 66, 0.2);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-soft);
+}
+
+.partner-card-light {
+  background: #ffffff;
+  border-color: var(--border);
+}
+
+.partner-card img {
+  width: 100%;
+  height: auto;
+  max-height: 88px;
+  object-fit: contain;
+}
+
+.team-group-title {
+  margin: 0 0 34px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid var(--primary);
+  color: var(--primary);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.team-group-grid {
+  margin-top: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .team-profile-head {
@@ -771,17 +875,12 @@ img {
   .contact-grid,
   .team-grid,
   .summary-grid,
-  .news-grid {
+  .partner-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .team-sequence-grid,
-  .member-grid {
+  .team-group-grid {
     grid-template-columns: 1fr;
-  }
-
-  .team-break {
-    display: none;
   }
 }
 
@@ -870,7 +969,8 @@ img {
   .contact-grid,
   .team-grid,
   .summary-grid,
-  .hero-actions-grid {
+  .hero-actions-grid,
+  .partner-grid {
     grid-template-columns: 1fr;
   }
 
