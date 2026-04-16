@@ -394,6 +394,20 @@
           ]
         },
         {
+          "year": 2023,
+          "papers": [
+            {
+              "title": "Alleviating Matthew Effect of Offline Reinforcement Learning in Recommendation",
+              "authors": "Chongming Gao, Kexin Huang, Jiawei Chen, Yuan Zhang, Biao Li, Peng Jiang, Shiqi Wang, Zhong Zhang, Xiangnan He",
+              "venue": "SIGIR",
+              "year": 2023,
+              "sort_date": "2023-06-25",
+              "featured": true,
+              "highlight": "SIGIR 2023 最佳论文提名奖"
+            }
+          ]
+        },
+        {
           "year": 2012,
           "papers": [
             {

@@ -91,7 +91,6 @@ img {
 .brand-logo {
   height: 68px;
   width: auto;
-  transition: transform 0.25s ease;
 }
 
 .brand-text {
@@ -108,9 +107,6 @@ img {
   white-space: nowrap;
 }
 
-.brand:hover .brand-logo {
-  transform: translateY(-1px);
-}
 
 .nav-toggle {
   display: none;
