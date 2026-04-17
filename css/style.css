@@ -966,3 +966,92 @@ img {
     padding: 22px 18px;
   }
 }
+
+/* ── Teacher Modal ─────────────────────────────────────────── */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.45);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+.modal-overlay.is-open {
+  display: flex;
+}
+.modal-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 32px 28px 28px;
+  max-width: 860px;
+  width: calc(100% - 32px);
+  box-shadow: 0 8px 40px rgba(0,0,0,.18);
+  position: relative;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.modal-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--primary);
+}
+.modal-close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  color: #666;
+  padding: 2px 6px;
+}
+.modal-close:hover { color: #111; }
+.teacher-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.teacher-item {
+  border: 1px solid #e5e9f0;
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+.teacher-row1 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.teacher-name {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--primary);
+  white-space: nowrap;
+  text-decoration: none;
+}
+.teacher-name:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  .teacher-list { grid-template-columns: 1fr; }
+}
+.teacher-email-link {
+  font-size: 13px;
+  color: var(--primary-light);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.teacher-email-link:hover { text-decoration: underline; }
+.teacher-field {
+  font-size: 13px;
+  color: #555;
+}

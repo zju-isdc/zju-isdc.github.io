@@ -50,8 +50,7 @@
           <article class="path-card">
             <h3>招生说明</h3>
             <p>招收 2026 级硕士研究生，申请者需已获得浙江大学软件学院录取资格，专业方向为电子信息（人工智能或软件工程）。</p>
-            <p>团队重视研究与实践并重，除学术研究外，更强调围绕真实问题开展系统建设与工程实现，推动人工智能技术真正落地。</p>
-            <p style="text-align: center; margin-top: 12px;"><a href="http://www.cst.zju.edu.cn/_upload/article/files/c5/36/7b393c1b41fea2a0c83d1cd3e5b8/da34cd49-893e-4e40-95b6-8834a71decf4.pdf" target="_blank" rel="noreferrer" style="display: inline-block; padding: 10px 22px; background: var(--primary); color: #fff; font-weight: 600; border-radius: 8px; text-decoration: none;">查看指导教师</a></p>
+            <p style="text-align: center; margin-top: 12px;"><button id="btn-teachers" style="padding: 10px 22px; background: var(--primary); color: #fff; font-weight: 600; border-radius: 8px; border: none; cursor: pointer; font-size: 15px;">查看指导教师</button></p>
           </article>
           <article class="path-card">
             <h3>联系信息</h3>
@@ -71,6 +70,115 @@
     </div>
   </footer>
 
+  <div class="modal-overlay" id="modal-teachers" role="dialog" aria-modal="true" aria-labelledby="modal-teachers-title" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:1000;align-items:center;justify-content:center;">
+    <div class="modal-box">
+      <button class="modal-close" id="btn-teachers-close" aria-label="关闭">&#x2715;</button>
+      <h2 class="modal-title" id="modal-teachers-title">指导教师</h2>
+      <ul class="teacher-list" id="teacher-list"></ul>
+    </div>
+  </div>
+
   <script src="js/main.js"></script>
+  <script>
+    (function () {
+      var teachers = [
+        {
+          name: '宋明黎',
+          homepage: 'https://person.zju.edu.cn/msong',
+          field: '模型驱动的深度学习、计算机视觉、图机器学习',
+          email: ['brook', 'song', '@', 'zju', '.', 'edu', '.', 'cn']
+        },
+        {
+          name: '王灿',
+          homepage: 'https://person.zju.edu.cn/wangcan/0.html',
+          field: '知识蒸馏、多模态大模型、扩散模型',
+          email: ['wcan', '@', 'zju', '.', 'edu', '.', 'cn']
+        },
+        {
+          name: '冯尊磊',
+          homepage: 'https://person.zju.edu.cn/fengzunlei',
+          field: '人工智能+医学交叉、病理大模型、AI智能体多组学分析',
+          email: ['zunlei', 'feng', '@', 'zju', '.', 'edu', '.', 'cn']
+        },
+        {
+          name: '宋杰',
+          homepage: 'https://person.zju.edu.cn/songjie',
+          field: '具身智能、模型高效部署',
+          email: ['sjie', '@', 'zju', '.', 'edu', '.', 'cn']
+        },
+        {
+          name: '宛袁玉',
+          homepage: 'https://person.zju.edu.cn/wanyy',
+          field: '在线学习、分布式优化、数据制备、持续学习、模型合并',
+          email: ['wanyy', '@', 'zju', '.', 'edu', '.', 'cn']
+        },
+        {
+          name: '季珂宇',
+          homepage: 'https://person.zju.edu.cn/NB25053',
+          field: '密码学、数据安全、隐私保护计算、人工智能安全',
+          email: ['jikeyu', '@', 'zju', '.', 'edu', '.', 'cn']
+        },
+        {
+          name: '贾凌翔',
+          homepage: 'https://vipazoo.cn/people/jialingxiang',
+          field: 'AI4S多模态大模型、靶向药物设计、肿瘤智能诊疗、多智能体因果推理',
+          email: ['lingxiang', 'jia', '@', 'zju', '.', 'edu', '.', 'cn']
+        },
+        {
+          name: '胡佳聪',
+          homepage: 'https://jiaconghu.com/',
+          field: '多模态大模型、多模态智能体、安全可信、评估优化',
+          email: ['jiacong', 'hu', '@', 'zju', '.', 'edu', '.', 'cn']
+        }
+      ];
+
+      var list = document.getElementById('teacher-list');
+      teachers.forEach(function (t) {
+        var addr = t.email.join('');
+        var li = document.createElement('li');
+        li.className = 'teacher-item';
+        li.innerHTML =
+          '<div class="teacher-row1">' +
+            '<a class="teacher-name" href="' + t.homepage + '" target="_blank" rel="noreferrer">' + t.name + '</a>' +
+            '<a class="teacher-email-link" href="mailto:' + addr + '">' + addr + '</a>' +
+          '</div>' +
+          '<div class="teacher-field">' + t.field + '</div>';
+        list.appendChild(li);
+      });
+
+      var overlay = document.getElementById('modal-teachers');
+      var btnOpen = document.getElementById('btn-teachers');
+      var btnClose = document.getElementById('btn-teachers-close');
+
+      function openModal() {
+        overlay.style.display = 'flex';
+        btnClose.focus();
+      }
+      function closeModal() {
+        overlay.style.display = 'none';
+        btnOpen.focus();
+      }
+
+      // Focus trap
+      overlay.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') { closeModal(); return; }
+        if (e.key !== 'Tab') return;
+        var focusable = Array.prototype.slice.call(
+          overlay.querySelectorAll('a[href], button:not([disabled])')
+        );
+        var first = focusable[0];
+        var last = focusable[focusable.length - 1];
+        if (e.shiftKey) {
+          if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+        } else {
+          if (document.activeElement === last) { e.preventDefault(); first.focus(); }
+        }
+      });
+
+      btnOpen.addEventListener('click', openModal);
+      btnClose.addEventListener('click', closeModal);
+      overlay.addEventListener('click', function (e) { if (e.target === overlay) closeModal(); });
+    })();
+  </script>
 </body>
 </html>
