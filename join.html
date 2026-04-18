@@ -55,8 +55,7 @@
           <article class="path-card">
             <h3>联系信息</h3>
             <ul class="contact-list">
-              <li><strong>联系人：</strong>孙武杰</li>
-              <li><strong>邮箱：</strong><a href="mailto:sunwujie@zju.edu.cn">sunwujie@zju.edu.cn</a></li>
+              <li>可点击「查看指导教师」，向意向导师的对应邮箱发送简历，或联系孙武杰（<a href="mailto:sunwujie@zju.edu.cn">sunwujie@zju.edu.cn</a>）咨询。</li>
             </ul>
           </article>
         </div>
@@ -86,13 +85,13 @@
           name: '宋明黎',
           homepage: 'https://person.zju.edu.cn/msong',
           field: '模型驱动的深度学习、计算机视觉、图机器学习',
-          email: ['brook', 'song', '@', 'zju', '.', 'edu', '.', 'cn']
+          email: ['zunlei', 'feng', '@', 'zju', '.', 'edu', '.', 'cn']
         },
         {
           name: '王灿',
           homepage: 'https://person.zju.edu.cn/wangcan/0.html',
           field: '知识蒸馏、多模态大模型、扩散模型',
-          email: ['wcan', '@', 'zju', '.', 'edu', '.', 'cn']
+          email: ['sunwujie', '@', 'zju', '.', 'edu', '.', 'cn']
         },
         {
           name: '冯尊磊',
@@ -129,18 +128,44 @@
           homepage: 'https://jiaconghu.com/',
           field: '多模态大模型、多模态智能体、安全可信、评估优化',
           email: ['jiacong', 'hu', '@', 'zju', '.', 'edu', '.', 'cn']
+        },
+        {
+          name: '张皓飞',
+          homepage: 'https://vipazoo.cn/people/zhanghaofei',
+          field: '无人机自主视觉导航、多模态智能体、深度模型可解释',
+          email: ['haofei', 'zhang', '@', 'zju', '.', 'edu', '.', 'cn']
+        },
+        {
+          name: '陈凯旋',
+          homepage: 'https://chenchkx.github.io/',
+          field: '多元时序分析、图机器学习、智慧能源',
+          email: ['chen', 'kx', '@', 'zju', '.', 'edu', '.', 'cn']
+        },
+        {
+          name: '高杨',
+          homepage: 'https://vipazoo.cn/people/gaoyang',
+          field: '时间序列挖掘、图机器学习、欺诈检测',
+          email: ['roy', 'gao', '@', 'zju', '.', 'edu', '.', 'cn']
+        },
+        {
+          name: '郑铜亚',
+          homepage: 'https://vipazoo.cn/people/zhengtongya.html',
+          field: '图神经网络、时序图、可解释人工智能',
+          email: ['ty', 'zheng', '@', 'zju', '.', 'edu', '.', 'cn']
         }
       ];
 
       var list = document.getElementById('teacher-list');
       teachers.forEach(function (t) {
-        var addr = t.email.join('');
+        var emailHtml = t.email
+          ? (function () { var addr = t.email.join(''); return '<a class="teacher-email-link" href="mailto:' + addr + '">' + addr + '</a>'; })()
+          : '';
         var li = document.createElement('li');
         li.className = 'teacher-item';
         li.innerHTML =
           '<div class="teacher-row1">' +
             '<a class="teacher-name" href="' + t.homepage + '" target="_blank" rel="noreferrer">' + t.name + '</a>' +
-            '<a class="teacher-email-link" href="mailto:' + addr + '">' + addr + '</a>' +
+            emailHtml +
           '</div>' +
           '<div class="teacher-field">' + t.field + '</div>';
         list.appendChild(li);

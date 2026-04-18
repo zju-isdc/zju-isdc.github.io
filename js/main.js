@@ -257,25 +257,12 @@ function renderTeam(groups) {
   return groups
     .map((group) => {
       const members = group.members
-        .map((member) => `<article class="team-card team-profile-card">
-          <a ${renderLinkAttrs(member.homepage)} class="team-card-link">
-            <div class="team-profile-head">
-              <div class="team-avatar">
-                <img src="${escapeHtml(member.avatar)}" alt="${escapeHtml(member.name)}">
-              </div>
-              <div class="team-profile-title">
-                <h3>${escapeHtml(member.name)}</h3>
-                <p class="team-position">${escapeHtml(member.position)}</p>
-              </div>
-            </div>
-            <dl class="team-meta">
-              <div>
-                <dt>研究方向</dt>
-                <dd>${escapeHtml(member.direction)}</dd>
-              </div>
-            </dl>
+        .map((member) => `<div class="team-member">
+          <a ${renderLinkAttrs(member.homepage)} class="team-member-avatar">
+            <img src="${escapeHtml(member.avatar)}" alt="${escapeHtml(member.name)}">
           </a>
-        </article>`)
+          <span class="team-member-name">${escapeHtml(member.name)}</span>
+        </div>`)
         .join("");
 
       return `<div class="team-group">
