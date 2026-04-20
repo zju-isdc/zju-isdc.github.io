@@ -152,6 +152,12 @@
           homepage: 'https://vipazoo.cn/people/zhengtongya.html',
           field: '大模型多智能体协作、区块链智能体、城市时空智能体',
           email: ['ty', 'zheng', '@', 'zju', '.', 'edu', '.', 'cn']
+        },
+        {
+          name: '刘顺宇',
+          homepage: 'https://scholar.google.com/citations?user=4U-X6d4AAAAJ&hl=en',
+          field: '强化学习、大模型智能体',
+          email: ['liu', 'shunyu', '@', 'zju', '.', 'edu', '.', 'cn']
         }
       ];
 
@@ -164,7 +170,7 @@
         li.className = 'teacher-item';
         li.innerHTML =
           '<div class="teacher-row1">' +
-            '<a class="teacher-name" href="' + t.homepage + '" target="_blank" rel="noreferrer">' + t.name + '</a>' +
+            (t.homepage ? '<a class="teacher-name" href="' + t.homepage + '" target="_blank" rel="noreferrer">' + t.name + '</a>' : '<span class="teacher-name">' + t.name + '</span>') +
             emailHtml +
           '</div>' +
           '<div class="teacher-field">' + t.field + '</div>';
